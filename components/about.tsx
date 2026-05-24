@@ -49,9 +49,9 @@ export function About() {
   const t = translations[language]
 
   return (
-    <section id="about" className="py-24 md:py-32">
+    <section id="about" className="py-16 md:py-24 lg:py-32">
 
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
 
         <div className="max-w-4xl mx-auto">
 
@@ -59,17 +59,17 @@ export function About() {
             {t.sectionTitle}
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12 items-start">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
 
             <div>
 
-              <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 md:mb-6 text-balance">
                 {t.title}
               </h3>
 
             </div>
 
-            <div className="space-y-6 text-muted-foreground leading-relaxed max-w-xl">
+            <div className="space-y-4 md:space-y-6 text-muted-foreground leading-relaxed max-w-xl text-sm sm:text-base">
 
               <p>
                 {t.text1}

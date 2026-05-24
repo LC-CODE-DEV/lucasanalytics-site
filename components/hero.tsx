@@ -36,8 +36,8 @@ export function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center pt-20"
     >
-      <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
           <div className="max-w-xl">
 
@@ -46,18 +46,18 @@ export function Hero() {
             </p>
 
             <div className="overflow-hidden">
-              <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold text-foreground mb-2 leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-2 leading-tight">
                 <span className="typing-animation inline-block">
                   Lucas Lemos Silva
                 </span>
               </h1>
             </div>
 
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-6">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-4 sm:mb-6">
               {t.role}
             </h2>
 
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mb-6 sm:mb-8 leading-relaxed">
               {t.description}
             </p>
 
@@ -110,9 +110,9 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative order-first lg:order-last">
+          <div className="relative order-first lg:order-last mb-8 lg:mb-0">
 
-            <div className="relative w-full aspect-square max-w-sm md:max-w-md lg:max-w-lg mx-auto">
+            <div className="relative w-full aspect-square max-w-[280px] sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
 
               <div className="absolute inset-0 bg-primary/20 rounded-3xl blur-3xl" />
 

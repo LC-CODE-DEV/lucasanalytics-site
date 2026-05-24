@@ -147,6 +147,15 @@
     3s;
 }
 
+@media (max-width: 640px) {
+  .typing-animation {
+    white-space: normal;
+    width: auto;
+    border-right: none;
+    animation: none;
+  }
+}
+
 @keyframes typing {
   from {
     width: 0;
