@@ -137,7 +137,7 @@
   border-right: 3px solid #00ffff;
 
   animation:
-    typing 3s steps(22, end) forwards,
+    typing 3s steps(17, end) forwards,
     blink .7s step-end 4,
     removeCursor 0.1s forwards;
     
@@ -149,10 +149,15 @@
 
 @media (max-width: 640px) {
   .typing-animation {
-    white-space: normal;
-    width: auto;
-    border-right: none;
-    animation: none;
+    animation:
+      typing-mobile 3s steps(17, end) forwards,
+      blink .7s step-end 4,
+      removeCursor 0.1s forwards;
+      
+    animation-delay:
+      0s,
+      0s,
+      3s;
   }
 }
 
@@ -162,7 +167,17 @@
   }
 
   to {
-    width: 22ch;
+    width: 17ch;
+  }
+}
+
+@keyframes typing-mobile {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 17ch;
   }
 }
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Lucas | Analista de Dados",
 
   description:
-    "Portfólio de analista de dados especializado em SQL, Power BI, Python e R. Transformando dados em insights estratégicos.",
+    "Portfólio de analista de dados especializado em SQL, Power BI, Excel e Modelagem de Dados. Transformando dados em insights estratégicos.",
 
   icons: {
     icon: "/favicon.png",
