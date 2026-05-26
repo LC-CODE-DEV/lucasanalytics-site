@@ -310,7 +310,7 @@ export function Contact() {
                   </Link>
 
                   <Link
-                    href="https://www.linkedin.com/in/lucas-silva-77484b353"
+                    href="https://www.linkedin.com/in/lucasanalytics/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-3 bg-secondary rounded-lg text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"

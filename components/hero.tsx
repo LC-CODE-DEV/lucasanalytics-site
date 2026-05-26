@@ -90,7 +90,7 @@ export function Hero() {
               </Link>
 
               <Link
-                href="https://www.linkedin.com/in/lucas-silva-77484b353/"
+                href="https://www.linkedin.com/in/lucasanalytics/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"

@@ -64,7 +64,7 @@ export function Footer() {
             </Link>
 
             <Link
-              href="https://www.linkedin.com/in/lucas-silva-77484b353/"
+              href="https://www.linkedin.com/in/lucasanalytics/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
