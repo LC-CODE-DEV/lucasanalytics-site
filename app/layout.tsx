@@ -14,15 +14,12 @@ const _geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lucasanalytics.site"),
+
   title: "Lucas | Analista de Dados",
 
   description:
     "Portfólio de analista de dados especializado em SQL, Power BI, Excel e Modelagem de Dados. Transformando dados em insights estratégicos.",
-
-  icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
-  },
 
   openGraph: {
     title: "Lucas | Analista de Dados",
@@ -30,24 +27,30 @@ export const metadata: Metadata = {
       "Portfólio de analista de dados especializado em SQL, Power BI, Excel e Modelagem de Dados. Transformando dados em insights estratégicos.",
     url: "https://lucasanalytics.site",
     siteName: "Lucas Analytics",
+    locale: "pt_BR",
+    type: "website",
+
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Lucas Analytics",
+        alt: "Lucas | Analista de Dados",
       },
     ],
-    locale: "pt_BR",
-    type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
     title: "Lucas | Analista de Dados",
     description:
-      "Portfólio de analista de dados especializado em SQL, Power BI, Excel e Modelagem de Dados.",
+      "Portfólio de analista de dados especializado em SQL, Power BI, Excel e Modelagem de Dados. Transformando dados em insights estratégicos.",
     images: ["/og-image.jpg"],
+  },
+
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
   },
 }
 
