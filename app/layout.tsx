@@ -23,6 +23,32 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
     apple: "/favicon.png",
   },
+
+  openGraph: {
+    title: "Lucas | Analista de Dados",
+    description:
+      "Portfólio de analista de dados especializado em SQL, Power BI, Excel e Modelagem de Dados. Transformando dados em insights estratégicos.",
+    url: "https://lucasanalytics.site",
+    siteName: "Lucas Analytics",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Lucas Analytics",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Lucas | Analista de Dados",
+    description:
+      "Portfólio de analista de dados especializado em SQL, Power BI, Excel e Modelagem de Dados.",
+    images: ["/og-image.jpg"],
+  },
 }
 
 export default function RootLayout({
@@ -30,22 +56,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-
   return (
     <html lang="pt-BR">
-
       <body className="font-sans antialiased">
-
         <LanguageProvider>
-
           {children}
-
         </LanguageProvider>
 
         <Analytics />
-
       </body>
-
     </html>
   )
 }
