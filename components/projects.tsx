@@ -13,52 +13,29 @@ const translations = {
     title: "Trabalhos selecionados",
 
     projects: [
-       /*
-      ======================================================
+     
 
       {
-        title: "Dashboard de Vendas",
+        title: "Sales Data Analysis Project",
 
         description:
-          "Dashboard interativo em Power BI para análise de vendas com KPIs, tendências e comparativos regionais. Integração com SQL Server para atualização automática.",
+          "Interactive dashboard developed from a retail database, featuring sales, revenue, product performance, and customer analysis indicators. SQL was used for data querying, while Power BI was utilized for data visualization and business insights generation.",
 
-        image: "/projects/project-1.jpg",
+        image: "/projects/project-1.png",
 
         tags: [
-          "Power BI",
-          "SQL Server",
-          "DAX",
+          "My SQL",
+          "Excel",
           "ETL",
+          "DAX",
+          "Power BI",
         ],
 
         github: "https://github.com/LucasLemos-Analytics",
 
-        live: "https://example.com",
-
         status: "completed",
       },
 
-      ======================================================
-      */
-
-      {
-        title: "Projeto em elaboração",
-
-        description:
-          "Novo projeto sendo desenvolvido. Em breve disponível com novas análises, dashboards e visualizações de dados.",
-
-        image: "/projects/em-construcao.png",
-
-        tags: [
-          "Em construção",
-        ],
-
-        github: "#",
-
-        live: "#",
-
-        status: "construction",
-      },
 
     ],
   },
@@ -69,53 +46,30 @@ const translations = {
 
     projects: [
 
-       /*
-      ======================================================
-
+   
       {
         title: "Sales Dashboard",
 
         description:
           "Interactive Power BI dashboard for sales analysis with KPIs, trends, and regional comparisons. SQL Server integration for automatic updates.",
 
-        image: "/projects/project-1.jpg",
+        image: "/projects/project-1.png",
 
         tags: [
-          "Power BI",
-          "SQL Server",
-          "DAX",
+          "My SQL",
+          "Excel",
           "ETL",
+          "DAX",
+          "Power BI",
         ],
 
         github: "https://github.com/LucasLemos-Analytics",
 
-        live: "https://example.com",
-
         status: "completed",
       },
 
-      ======================================================
-      */
-
-      {
-        title: "Project in Progress",
-
-        description:
-          "New project currently under development. Soon available with new data analysis, dashboards and visualizations.",
-
-        image: "/projects/em-construcao.png",
-
-        tags: [
-          "Under Construction",
-        ],
-
-        github: "#",
-
-        live: "#",
-
-        status: "construction",
-      },
-
+     
+    
     ],
   },
 }
@@ -154,8 +108,7 @@ export function Projects() {
               >
                 
                 <div className="relative aspect-video overflow-hidden bg-secondary">
-
-                  {/*
+                 
                   <Image
                     src={project.image}
                     alt={project.title}
@@ -166,7 +119,7 @@ export function Projects() {
                         : "opacity-80"
                     }`}
                   />
-                  */}
+                
 
                   {project.status === "construction" && (
                     <div className="absolute inset-0 bg-background/70 flex items-center justify-center">
@@ -205,19 +158,6 @@ export function Projects() {
 
                       </Link>
 
-                      <Link
-                        href={project.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-3 bg-background/90 rounded-full text-foreground hover:text-primary transition-colors"
-                      >
-                        <ExternalLink className="h-5 w-5" />
-
-                        <span className="sr-only">
-                          Live Project
-                        </span>
-
-                      </Link>
 
                     </div>
                   )}
