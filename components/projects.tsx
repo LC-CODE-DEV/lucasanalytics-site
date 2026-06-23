@@ -16,10 +16,10 @@ const translations = {
      
 
       {
-        title: "Sales Data Analysis Project",
+        title: "Projeto de Análise de Dados - Venda",
 
         description:
-          "Interactive dashboard developed from a retail database, featuring sales, revenue, product performance, and customer analysis indicators. SQL was used for data querying, while Power BI was utilized for data visualization and business insights generation.",
+          "Dashboard interativo desenvolvido a partir de um banco de dados de varejo, apresentando indicadores de vendas, faturamento, desempenho de produtos e análise de clientes.",
 
         image: "/projects/project-1.png",
 
@@ -48,10 +48,10 @@ const translations = {
 
    
       {
-        title: "Sales Dashboard",
+        title: "Sales Data Analysis Project",
 
         description:
-          "Interactive Power BI dashboard for sales analysis with KPIs, trends, and regional comparisons. SQL Server integration for automatic updates.",
+          "Interactive dashboard developed from a retail database, featuring sales, revenue, product performance, and customer analysis indicators. SQL was used for data querying, while Power BI was utilized for data visualization and business insights generation.",
 
         image: "/projects/project-1.png",
 
