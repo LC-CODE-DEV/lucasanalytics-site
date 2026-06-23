@@ -53,7 +53,7 @@ const translations = {
         description:
           "Interactive dashboard developed from a retail database, featuring sales, revenue, product performance, and customer analysis indicators. SQL was used for data querying, while Power BI was utilized for data visualization and business insights generation.",
 
-        image: "/projects/project-1.png",
+        image: "/projects/project-1.en.png",
 
         tags: [
           "My SQL",
